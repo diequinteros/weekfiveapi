@@ -1,16 +1,19 @@
 {
-  "posts":[
+  "users":[
     {
       "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "name": "Diego",
+      "lastName" : "Quinteros",
+      "username" : "diequinteros",
+      "password" : "password123"
     }
   ],
-  "comments" : [
+  "comments": [
     {
       "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "comment": "Test comment on game #0",
+      "gameId": 0,
+      "userId": 0
     }
   ]
 }
